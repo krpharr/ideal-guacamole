@@ -1,0 +1,26 @@
+/* * {
+    border: 1px solid lightblue;
+} */
+
+.brand-logo {
+    display: none!important;
+}
+
+.mock-player-large {
+    width: 100%;
+}
+
+.about {
+    position: relative;
+    color: black;
+    background-color: white;
+    ;
+}
+
+.about-profile-pic {
+    float: right;
+    width: 120px;
+    margin: 14px 4px 8px;
+}
+
+.photo-gallery {}

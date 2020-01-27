@@ -13,8 +13,11 @@
 .about {
     position: relative;
     color: black;
-    background-color: white;
-    ;
+    /* background-color: white; */
+    background-image: url("../images/natural_paper/natural_paper.png");
+    margin-top: 32px;
+    width: 100%;
+    color: rgba(0, 0, 0, 0.68)
 }
 
 .about-profile-pic {
@@ -23,4 +26,21 @@
     margin: 14px 4px 8px;
 }
 
+.liner-notes {
+    background-color: white;
+    margin-top: 32px;
+}
+
 .photo-gallery {}
+
+@media only screen and (min-width: 759px) {
+    .brand-logo {
+        display: block!important;
+    }
+}
+
+@media only screen and (min-width: 860px) {
+    .about {
+        width: 722px;
+    }
+}
